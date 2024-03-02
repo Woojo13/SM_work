@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-block {
+    background: url("images/background.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 286px;
+    padding-bottom: 208px;
+}
+
+.main-text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    font-family: "montserrat";
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 79px;
+    line-height: 96.3px;
+}
+
+.main-subtitles {
+    font-family: "montserrat";
+    font-weight: 300;
+    font-size: 27px;
+    color: white;
+}
+
+.main-button {
+    margin-top: 32px;
+    padding: 26px 22px;
+    font-family: "montserrat";
+    color: black;
+    line-height: 18.29px;
+    font-weight: 500px;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.about-me-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 72px;
+    padding-bottom: 181px;
+}
+
+.section-title-text {
+    font-family: "montserrat";
+    font-size: 37px;
+    font-weight: 600px;
+}
+
+.person-info-section {
+    max-width: 1380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 97px;
+    margin-top: 51px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.person-text-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 600px;
+    gap: 40px;
+}
+
+.person-info-text {
+    font-family: "montserrat";
+    font-weight: 400;
+    font-size: 25px;
+
+}
+
+.footer {
+    background-color: #1E2E3D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 112px;
+    padding-bottom: 297px;
+    gap: 15px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 40px;
+}
+
+.Footer-txt {
+    font-family: "montserrat";
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    color: white
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.Footer2-txt {
+    font-family: "montserrat";
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: white
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 14px;
+}
+
+@media screen and (max-width: 975px) {
+    .person-info-section {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .main-title {font-size: 60px;}
+    .footer {font-size: 25px;}
+    .txt {font-size: 12px;}
+}
